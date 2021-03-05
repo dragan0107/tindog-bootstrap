@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.brand-img {
+    margin-right: 10px;
+    margin-top: 17px;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15% 0;
+    margin-bottom: -7%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.row-title {
+    margin-top: 7%;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-left: 50px;
+}
+
+.link-list {
+    margin-right: 11%;
+}
+
+.top-btn {
+    margin-top: 5%;
+    margin-right: 10px;
+}
+
+.titleText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+
+.phone {
+    width: 55%;
+    transform: rotate(20deg);
+}
+
+.cards {
+    text-align: center;
+    border: none;
+    padding: 5%;
+}
+
+.toph3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.card-desc {
+    color: #8f8f8f;
+}
+
+.card-icons {
+    color: #ef8172;
+}
+
+.card-icons:hover {
+    color: #ff4c68;
+}
+
+.card-row {
+    padding: 2% 1%;
+}
+
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 500px) {
+    .titleText {
+        font-size: 2.8rem;
+    }
+}
+
+#testimonials {
+    background-color: #ef8172;
+    padding: 5% 3%;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 2.7rem;
+    line-height: 2;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6%;
+}
+
+.testimonial-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.caro-items {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.press-img {
+    width: 14%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    text-align: center;
+    padding: 4% 15%;
+}
+
+.dog-cards {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.price-cards {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.dog-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.pack-price {
+    margin-bottom: 7%;
+}
+
+.pricing-title {
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 2;
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 20%;
+    text-align: center;
+}
+
+.cta-header {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 900;
+    line-height: 2.5;
+    margin-bottom: 5%;
+}
+
+.bot-btn {
+    margin: 0 1%;
+}
+
+#footer {
+    background-color: #fff;
+    padding: 7% 20%;
+    text-align: center;
+}
+
+.ftr-icons {
+    margin: 2% 1%;
+}
+
+.ftr-icons:hover {
+    color: #ff4c68;
+}
+
+.price-cards {
+    margin-bottom: 6%;
+}
+
+@media (max-width: 1106px) {
+    .caro-items {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+
+@media (min-width: 987px) and (max-width: 1278px) {
+    .titleText {
+        font-size: 2.9rem;
+        text-align: center;
+    }
+    .phone {
+        margin-left: 15%;
+    }
+}
+
+@media (min-width: 994px) and (max-width: 1065px) {
+    .titleText {
+        font-size: 2.6rem;
+        margin-top: -8%;
+    }
+}
+
+@media (max-width: 986px) {
+    .caro-items {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .testimonial-text {
+        font-size: 2.2rem;
+    }
+    .row-title {
+        text-align: center;
+    }
+    .phone {
+        transform: rotate(0);
+        margin-top: 7%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .caro-items {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .testimonial-text {
+        font-size: 1.7rem;
+    }
+    .titleText {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    .row-title {
+        text-align: center;
+    }
+    .phone {
+        transform: rotate(0);
+        margin-top: 7%;
+    }
+    .cta-header {
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+    .ftr-icons {
+        margin: 5% 1%;
+    }
+    .bot-btn {
+        margin-bottom: 3%;
+    }
+    .pricing-title {
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+    #features {
+        padding: 2% 9%;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav-cont {
+        padding: 4% 13%;
+    }
+}
